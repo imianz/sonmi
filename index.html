@@ -1,2 +1,43 @@
+<!-- 
 <h1>La mia pagina deploy 2</h1>
 <div style="position:fixed; bottom:0; width:100%; text-align:center; font-size:24px; color:gray; padding:5px; background-color:#f9f9f9;">Aggiornato il 2026-02-16 ora no se sa</div>
+-->
+
+<style>
+#footer-timestamp {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: gray;
+  padding: 0.3em;
+}
+
+#footer-timestamp .line1 {
+  font-size: 1rem;   /* dimensione normale */
+}
+
+#footer-timestamp .line2 {
+  font-size: 1.2rem; /* leggermente più grande */
+}
+
+#footer-timestamp .line3 {
+  font-size: 0.9rem; /* leggermente più piccolo */
+}
+
+/* Riduci un po' su schermi piccoli */
+@media (max-width: 600px) {
+  #footer-timestamp .line1 { font-size: 0.9rem; }
+  #footer-timestamp .line2 { font-size: 1rem; }
+  #footer-timestamp .line3 { font-size: 0.8rem; }
+}
+</style>
+
+<div id="footer-timestamp">
+  <div class="line1">Aggiornato il 2026-02-16 15:30</div>
+  <div class="line2">Ultima modifica automatica</div>
+  <div class="line3">Powered by deploy script</div>
+  <div class="position:fixed; bottom:0; width:100%; text-align:center; font-size:24px; color:gray; padding:5px; background-color:#f9f9f9;">Aggiornato il 2026-02-16 ora no se sa</div>
+</div>
+
